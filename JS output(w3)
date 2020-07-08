@@ -81,4 +81,20 @@ console.log(5 + 6);
 
 </body>
 </html>
+6.simple example by unsing innerHTML and window.print()
+<!DOCTYPE html>
+<html>
+<body>
+<p id="demo"> Services. </p>
+<button type="button" onclick="myFunction()">try it</button>  
+<script>
+function myFunction() {
+ document.getElementById("demo").innerHTML = "All services provided";  
+}
+</script>
+<h2>The window.print() Method</h2>
+<p>Click the button to print the current page.</p>
+<button onclick="window.print()">Print this page</button>
 
+</body>
+</html>
