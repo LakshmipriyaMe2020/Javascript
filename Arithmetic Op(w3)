@@ -1,0 +1,43 @@
+1.example1
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>The * Operator</h2>
+<button type="button" onclick="mul()">Calculate</button>
+
+<p id="demo1"></p>
+<p id="demo2"></p>
+<script>
+var p=5;var d;
+function mul(x,y){
+var x = 5;
+var y = 2;
+var z;
+z = x * y;
+document.getElementById("demo1").innerHTML = z;
+}
+document.getElementById("demo2").innerHTML="the value of d is:"+ Math.pow(p,2);
+</script>
+
+</body>
+</html>
+
+2.Example 2
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>A typical arithmetic operation takes two numbers and produces a new number.</p>
+<p id="demo"></p>
+<button type="button" onclick="arithmetic()">Calculate</button>
+<script>
+function arithmetic(){
+var x=100;
+x +=50;
+document.getElementById("demo").innerHTML ="the value of x is" + x;
+}
+</script>
+
+</body>
+</html>
