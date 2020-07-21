@@ -1,0 +1,41 @@
+//toUpperCase()
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript String Methods</h2>
+
+<p>The toUpperCase() method is used to change lowercase string to uppercase:</p>
+<button onclick=myFunction()>click me!</button>
+<p id="demo">javascript</p>
+
+<script>
+function myFunction(){
+var str = "javascript";
+document.getElementById("demo").innerHTML =str.toUpperCase();
+}
+</script>
+
+</body>
+</html>
+
+//toLowerCase()
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript String Methods</h2>
+
+<p>The toUpperCase() method is used to change lowercase string to uppercase:</p>
+<button onclick=myFunction()>click me!</button>
+<p id="demo">GOOGLE</p>
+
+<script>
+function myFunction(){
+var str = "GOOGLE";
+document.getElementById("demo").innerHTML =str.toLowerCase();
+}
+</script>
+
+</body>
+</html>
