@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>Input your age and click the button:</p>
+<!--using Ternary Operator to check the entered age is valid to apply driving License-->
+<input type="number" id="age"/>
+
+<button onclick="myFunction()">Try it</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+  var age, allow;
+  age = document.getElementById("age").value;
+  allow = (age < 18) ? "Too young":"Old enough";
+  document.getElementById("demo").innerHTML = allow 
+  + " to apply Driving License.";
+}
+</script>
+
+</body>
+</html>
