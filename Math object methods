@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p><strong>Math() methods:</strong></p>
+
+<button onclick="myFunction()">Try Some Math methods </button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+  document.getElementById("demo").innerHTML =
+  "The value of Math.ceil(4.8) is:"   +Math.ceil(4.8) +" <br>" + 
+  "The value of Math.floor(4.8) is:"  +Math.floor(4.8) +" <br>" + 
+  "The value of Math.random() is:"    +Math.random() +" <br>" + 
+  "The value of Math.abs(-4.8) is:"   +Math.abs(-4.8) +" <br>" + 
+  "The value of Math.pow(2,3) is:"    +Math.pow(2,3) +" <br>" + 
+  "The value of Math.trunc(4.8) is:"  +Math.trunc(4.8) +" <br>" +
+  "The value of Math.exp(2) is:"      +Math.exp(2) +" <br>" +
+  "The value of Math.min(4,1,34,43,7.8) is:"  
+   +Math.min(4,1,34,43,7.8) +" <br>" +
+  "The value of Math.max(23,12,34,10,89) is:"  +Math.max(23,12,34,10,89) 
+  +" <br>" +
+  "The value of Math.sqrt(4) is:"    +Math.sqrt(4) +" <br>" + 
+  "The value of Math.tan(1) is:"    +Math.tan(1);
+}
+</script>
+
+</body>
+</html>
