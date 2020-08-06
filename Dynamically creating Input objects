@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<body>
+<p>Try to submit form by creating buttons,textbox,checkbox dynamically</p>
+<button onclick="myFunction()">Try it</button>
+<script>
+function myFunction() {
+  var br = document.createElement("br");
+  document.body.appendChild(br);
+  var btn = document.createElement("BUTTON");
+  btn.innerHTML = "button";
+  document.body.appendChild(btn);
+  var br1 = document.createElement("br");
+  document.body.appendChild(br1);
+  var tbox = document.createElement("INPUT");
+  tbox.setAttribute("type", "text");
+  tbox.setAttribute("value","Name");
+  document.body.appendChild(tbox);
+  var br2 = document.createElement("br");
+  document.body.appendChild(br2);
+  var x = document.createElement("INPUT");
+  x.setAttribute("type", "checkbox");
+  x.setAttribute("value", "male");
+  document.body.appendChild(x);
+  var y = document.createElement("INPUT");
+  y.setAttribute("type", "checkbox");
+  y.setAttribute("value", "female");
+  document.body.appendChild(y);
+  var br3 = document.createElement("br");
+  document.body.appendChild(br3);
+  var mail = document.createElement("INPUT");
+  mail.setAttribute("type", "email");
+  mail.setAttribute("value", "john@gmail.com");
+  document.body.appendChild(mail);
+  var br4 = document.createElement("br");
+  document.body.appendChild(br4);
+  var sub = document.createElement("INPUT");
+  sub.setAttribute("type", "submit");
+  document.body.appendChild(sub);
+  sub.setAttribute("onClick", "alert('Form submitted')");
+}
+</script>
+</body>
+</html>
